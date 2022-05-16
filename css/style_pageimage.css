@@ -1,0 +1,280 @@
+@charset "utf-8";
+@font-face{
+	font-family: "jair";
+	src:url("../webfonts/QuicksandMedium.ttf");
+}
+@font-face{
+	font-family: "jair2";
+	src:url("../webfonts/QuicksandRegular.ttf");
+}
+@font-face{
+	font-family: "jair3";
+	src:url("../webfonts/RobotoRegular.ttf");
+}
+@font-face{
+	font-family: "jair4";
+	src:url("../webfonts/QuicksandBold.ttf");
+}
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+nav ul li a{
+	list-style-type: none;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "jair3";
+	text-align: right;
+	width: auto;
+}
+nav ul li a:link{
+	color: #ffffff;
+}
+nav ul li a:visited{
+	color: #6774C4;
+}
+header {
+	background-color: #00356B;
+	color: #E9FEFF;
+}
+header h1{
+	width: 50%;
+	margin: 0 auto;
+}
+nav{
+	background-color: #00356B;
+}
+nav ul li{
+	width: 183px;
+	display: inline-block;
+}
+header,nav,main,footer{
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+}
+main {
+	background-color: #EDEDED;
+	height: auto;
+	padding: 30px;
+}
+main section{
+	background-color: #EDEDED;
+	padding: 30px;
+	margin: 0px auto;
+	width: 66%;
+}
+main section img{
+	margin-top: 10px;
+	padding-right: 142px;
+}
+footer{
+	background-color: #0F1B32;
+	text-align: center;
+	list-style-type: none;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "jair3";
+}
+footer ul li a{
+	text-align: right;
+	list-style-type: none;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "jair3";
+	color: aliceblue;
+}
+footer h6{
+	color: aliceblue;
+	text-align: center;
+	list-style-type: none;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: "jair3";
+}
+.redes{
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 20px;
+	background-color: #EDEDED;
+	padding-bottom: 20px;
+}
+.p {
+    font-family: "jair3";
+	font-size: 16px;
+	padding-top: 15px;
+	color: #191919;
+	text-align: justify;
+	line-height: 1.5;
+}
+.p2 {
+    font-family: "jair3";
+	font-size: 16px;
+	margin-top: 15px;
+	width: 70%;
+	text-align: justify;
+	line-height: 1.5;
+}
+.h2 {
+    font-family: "jair2";
+	font-size: 25px;
+    color: #00356B;
+    font-weight: lighter;
+}
+.h1 {
+    font-family: "jair";
+    color: #00356B;
+    font-weight: lighter;
+    text-align: left;
+	font-size: 60px;
+}
+.h {
+}
+.sites_video {
+    max-width: 68%;
+    width: auto;
+    padding-left: 10px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=text],textarea
+{
+	width:30%;
+	padding:5px;
+	margin:5px 5px;
+	border: 2px solid #045074;
+	border-radius: 10px;
+	color: #070B3F;
+	background-color: #C9D9F0;
+}
+input[type=submit]{
+	width: 20%;
+	height: 20px;
+	background-color: #9FF0FD;
+	color: #132162;
+	border-radius: 7px;
+}
+input[type=submit]:hover{
+	width: 21%;
+	height: 21px;
+	background-color: #274997;
+	color: #FFFFFF;
+}
+#form3 #submit3:hover {
+	background-color: #361C80;
+	color: #FFFFFF;
+}
+.logoredesss {
+    margin-right: 10px;
+}
+
+.slider-frame{
+	width: 890px;
+	height: auto;
+	margin: 50px auto 0;
+	overflow: hidden;
+	
+}
+.slider-frame ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+	}
+.slider-frame li {
+	list-style: none;
+	width: 100%;
+	
+}
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.sectionnA {
+	border-radius: 0;
+	background-color: #FABD0A;
+	margin-top: 45px;
+}
+.pA {
+	text-align: justify;
+	height: 260px;
+	font-family: "jair3";
+	font-size: 16px;
+}
+.imgA {
+	height: 294px;
+	width: auto;
+	float: right;
+	padding-right: 0px;
+	margin-top: -23px;
+	margin-left: 29px;
+}
+.pB {
+	text-shadow: 0px 0px;
+	height: 260px;
+	width: auto;
+	text-align: justify;
+	padding-top: 0px;
+	font-family: "jair3";
+	font-size: 16px;
+}
+.H2B {
+	text-align: right;
+	font-family: "jair2";
+	font-size: 25px;
+	color: #00356B;
+}
+.animate__animated{
+	font-family: "jair2";
+	font-size: 25px;
+	color: #00356B;
+	}
+.H2b {
+}
+.imgB {
+	height: 294px;
+	margin-top: -23px;
+	width: auto;
+	padding-right: 5px;
+	float: left;
+	padding-left: 0px;
+}
+.sectionnB {
+	text-shadow: 0px 0px;
+	background-color: #FABD0A;
+	margin-top: 45px;
+}
+.email_blue {
+	width: 268px;
+	height: auto;
+	float: right;
+	margin-top: -28px;
+	margin-left: 50px;
+}
+.principal {
+    margin-left: 21px;
+    bottom: 0px;
+    font-size: 0px;
+    padding-bottom: 13px;
+    padding-top: 0px;
+}
+.youtubevideo{
+    text-align: center;	
+	padding: inherit;
+}
